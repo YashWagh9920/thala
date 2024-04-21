@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-yellow-500 flex m-0 p-0 justify-center items-center h-screen ">
+    <div class="absolute top-5 flex flex-wrap flex-col justify-center items-center gap-10">
+        <h1 class="text-slate-900  text-6xl font-black">Check If You Are @ Thala Fan Or Not!!!</h1>
+        <h2 id="congrats" class=" hidden text-slate-900  text-6xl font-semibold">Congratulations !!! You Are a Thala Fan
+        </h2>
+        <h2 id="die" class="hidden text-slate-900  text-6xl font-semibold">Die !!! You Are Not a Thala Fan</h2>
+    </div>
+    <div class=" flex flex-row gap-0 overflow-hidden">
+        <audio id="audio" autoplay loop src="thala.mp3"></audio>
+        <video id="video" class="hidden w-screen h-screen" src="thala.mp4" autoplay loop muted></video>
+        <video id="video" class="hidden w-screen h-screen" src="thala.mp4" autoplay loop muted></video>
+        <video id="video" class="hidden w-screen h-screen" src="thala.mp4" autoplay loop muted></video>
+        <video id="video" class="hidden w-screen h-screen" src="thala.mp4" autoplay loop muted></video>
+        <!-- <video id="video" class="hidden w-screen h-screen" src="thala.mp4"  autoplay loop muted></video> -->
+    </div>
+    <div id="form"
+        class="md:absolute md:top-60 absolute bottom-32 flex justify-center items-center flex-col gap-y-5 border-8 border-black rounded-2xl px-10 py-6 h-60 w-96 bg-green-700">
+        <input id="input" class="rounded-3xl h-12 w-80 px-5 border-4 border-black font-semibold" type="text"
+            placeholder="enter number or string">
+        <input id="submit"
+            class="hover:scale-125 border-2 px-3 bg-cyan-600 rounded-lg font-extrabold cursor-pointer h-8 w-20"
+            type="submit">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
