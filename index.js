@@ -10,7 +10,7 @@ document.getElementById("submit").addEventListener("click", function() {
     } else {
         document.getElementById("congrats").classList.add("hidden");
         document.getElementById("die").classList.remove("hidden");
-        document.getElementById("form").style.backgroundColor='rgb(21,128,61)';
+        document.getElementById("form").style.backgroundColor='rgba(0,0,0,0)';
         hideVideos();
         pauseAudio();
     }
